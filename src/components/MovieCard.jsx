@@ -1,7 +1,5 @@
-// src/components/MovieCard.jsx
-
-import React from 'react';
-import './MovieCard.css'; // Optional: Import CSS for styling
+import React from "react";
+import "./MovieCard.css";
 
 const MovieCard = ({ movie }) => {
   const { title, director, genre, releaseYear, synopsis, posterUrl } = movie;
